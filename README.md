@@ -1,4 +1,5 @@
-chess-game/
+```
+Racist-chess/
 ├── public/
 │   ├── index.html
 │   ├── favicon.ico
@@ -22,3 +23,4 @@ chess-game/
 ├── package.json
 ├── package-lock.json
 └── README.md
+```
