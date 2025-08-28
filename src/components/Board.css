@@ -1,0 +1,30 @@
+.chess-game {
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.chess-board {
+  display: grid;
+  grid-template-columns: repeat(8, 70px);
+  grid-template-rows: repeat(8, 70px);
+  gap: 0;
+  border: 3px solid #8B4513;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  background: #8B4513;
+}
+
+@media (max-width: 768px) {
+  .chess-game {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chess-board {
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+  }
+}
